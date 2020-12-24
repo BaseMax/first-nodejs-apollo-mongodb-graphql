@@ -4,6 +4,15 @@ Good example for starter and learning GraphQL + Apollo Server + NodeJS easily an
 
 If you would like to read more, you can check out official documentation at [here](https://graphql.org/graphql-js/running-an-express-graphql-server/).
 
+## Similar Repository
+
+- https://github.com/BaseMax/first-nodejs-graphql/
+
+### References
+
+- https://www.apollographql.com/docs/apollo-server/getting-started/
+- https://github.com/graphql/express-graphql
+
 ---------
 
 # Max Base
