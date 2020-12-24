@@ -1,7 +1,7 @@
 /*
- * @Name: First NodeJs Apollo GraphQL
+ * @Name: First NodeJS Apollo MongoDB GraphQL
  * @Author: Max Base
- * @Repository: https://github.com/BaseMax/first-nodejs-apollo-graphql
+ * @Repository: https://github.com/BaseMax/first-nodejs-apollo-mongodb-graphql
  * @Date: 2020-12-24
  */
 
