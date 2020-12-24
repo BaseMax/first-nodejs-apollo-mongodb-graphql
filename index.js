@@ -23,9 +23,11 @@ const startServer = async () => {
 
   server.applyMiddleware({ app })
 
-  mongoose.connect('mongodb://localhost:27017/test', {useNewUrlParser: true})
+  mongoose.connect('mongodb://localhost:27017/test', {useUnifiedTopology: true, useNewUrlParser: true})
 
   app.listen({ port: PORT }, () => {
     console.log(`Server ready at http://localhost:${PORT}`)
   })
 }
+
+startServer()
