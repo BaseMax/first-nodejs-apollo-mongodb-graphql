@@ -1,8 +1,8 @@
 {
-  "name": "first-nodejs-apollo-graphql",
+  "name": "first-nodejs-apollo-mongodb-graphql",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/basemax/first-nodejs-apollo-graphql",
+  "repository": "https://github.com/basemax/first-nodejs-apollo-mongodb-graphql",
   "author": "Max Base",
   "license": "MIT",
   "scripts": {
