@@ -1,8 +1,15 @@
 # First NodeJS Apollo GraphQL
 
-Good example for starter and learning GraphQL + Apollo Server + NodeJS easily and fastly. (Just in 10 minutes)
+Good example for starter and learning GraphQL + Apollo Server + MongoDB + NodeJS easily and fastly. (Just in 10 minutes)
 
 If you would like to read more, you can check out official documentation at [here](https://graphql.org/graphql-js/running-an-express-graphql-server/).
+
+## Features
+
+- MongoDB
+- GraphQL
+- ExpressJS
+- Babel JS
 
 ## Select all Cats
 
