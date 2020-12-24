@@ -19,7 +19,7 @@ $ yarn install
 $ yarn start
 ```
 
-Then open `http://localhost:5000/graphql/`
+Then open `http://localhost:4000/graphql/`
 
 ## Select all Cats
 
