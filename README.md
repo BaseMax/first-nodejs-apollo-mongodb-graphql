@@ -4,6 +4,28 @@ Good example for starter and learning GraphQL + Apollo Server + NodeJS easily an
 
 If you would like to read more, you can check out official documentation at [here](https://graphql.org/graphql-js/running-an-express-graphql-server/).
 
+## Select all Cats
+
+```
+{
+  cats {
+     id
+     name
+  }
+}
+```
+
+## Insert a new Model, Cat
+
+```
+mutation {
+  createCat(name:"Max") {
+    id
+    name
+  }
+}
+```
+
 ## Similar Repository
 
 - https://github.com/BaseMax/first-nodejs-graphql/
