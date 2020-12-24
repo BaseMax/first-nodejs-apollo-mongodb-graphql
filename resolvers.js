@@ -10,11 +10,10 @@ export const resolvers = {
   },
   Mutation: {
     createCat: async (_, {name}) => {
-    const cat = new Cat({name})
-    await cat.save()
-    console.log(cat)
-    return cat
+      const cat = new Cat({name})
+      await cat.save()
+      console.log(cat)
+      return cat
     }
   }
 }
-
