@@ -15,6 +15,8 @@ If you would like to read more, you can check out official documentation at [her
 }
 ```
 
+![Mongodb - select all cats - Apollo GraphQL](screen1.png)
+
 ## Insert a new Model, Cat
 
 ```
@@ -25,6 +27,8 @@ mutation {
   }
 }
 ```
+
+![mongodb - insert a new model cat - Apollo GraphQL](screen2.png)
 
 ## Similar Repository
 
