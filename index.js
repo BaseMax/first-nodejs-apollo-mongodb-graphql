@@ -8,36 +8,24 @@
 import {ApolloServer, gql } from 'apollo-server-express'
 import express from 'express'
 import mongoose from 'mongoose'
+import { resolvers } from './resolvers'
+import { typeDefs } from './typeDefs'
 
-const app = express()
 const PORT = 4000
 
-mongoose.connect('mongodb://localhost:27017/test', {useNewUrlParser: true})
+const startServer = async () => {
+  const app = express()
 
-const Cat = mongoose.model('Cat', {name: String })
+  const server = new ApolloServer({
+    typeDefs,
+    resolvers
+  })
 
-const kitty = new Cat({ name: 'Zildjian' })
-kitty.save().then(() => console.log('meow'))
+  server.applyMiddleware({ app })
 
-const typeDefs = gql`
-  type Query {
-    hello: String!
-  }
-`
+  mongoose.connect('mongodb://localhost:27017/test', {useNewUrlParser: true})
 
-const resolvers = {
-  Query: {
-    hello: () => `Hello, World`
-  }
+  app.listen({ port: PORT }, () => {
+    console.log(`Server ready at http://localhost:${PORT}`)
+  })
 }
-
-const server = new ApolloServer({
-  typeDefs,
-  resolvers
-})
-
-server.applyMiddleware({ app })
-
-app.listen({ port: PORT }, () => {
-  console.log(`Server ready at http://localhost:${PORT}`)
-})
