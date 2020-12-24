@@ -40,7 +40,21 @@ pamac build mongodb-bin
 
 #### Did you encounter a problem in MongoDB?
 
-Modify `/usr/lib/systemd/system/mongodb.service` file and change user from `mongodb` to `root`:
+As shown below, the service does not run and has an error.
+This is a file access and execution error.
+The easiest way is as follows:
+
+```
+[max@base first-nodejs-apollo-graphql]$ sudo systemctl status mongodb
+● mongodb.service - High-performance, schema-free document-oriented database
+     Loaded: loaded (/usr/lib/systemd/system/mongodb.service; enabled; vendor preset: disabled)
+     Active: failed (Result: exit-code) since Thu 2020-12-24 05:16:07 +0330; 4s ago
+```
+
+Modify `/usr/lib/systemd/system/mongodb.service` file.
+However, manipulating these accesses is not recommended.
+
+Anyway, You can change user from `mongodb` to `root` to solve this problem:
 
 ```
 [Unit]
