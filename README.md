@@ -12,6 +12,15 @@ If you would like to read more, you can check out official documentation at [her
 - Apollo Server
 - Babel JS
 
+## Using
+
+```
+$ yarn install
+$ yarn start
+```
+
+Then open `http://localhost:5000/graphql/`
+
 ## Select all Cats
 
 ```
