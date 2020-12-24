@@ -11,6 +11,8 @@ If you would like to read more, you can check out official documentation at [her
 ### References
 
 - https://www.apollographql.com/docs/apollo-server/getting-started/
+- https://www.apollographql.com/docs/apollo-server/schema/schema/
+- https://github.com/apollographql/apollo-server
 - https://github.com/graphql/express-graphql
 
 ---------
