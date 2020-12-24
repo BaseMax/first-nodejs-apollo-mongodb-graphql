@@ -1,4 +1,4 @@
-# First NodeJS Apollo GraphQL
+# First NodeJS Apollo MongoDB GraphQL
 
 Good example for starter and learning GraphQL + Apollo Server + MongoDB + NodeJS easily and fastly. (Just in 10 minutes)
 
