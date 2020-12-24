@@ -15,6 +15,13 @@ If you would like to read more, you can check out official documentation at [her
 - https://github.com/apollographql/apollo-server
 - https://github.com/graphql/express-graphql
 
+#### Did you encounter a problem in Babel?
+
+The following link may be helpful:
+https://stackoverflow.com/a/51530314/10096230
+
+Change `"start": "nodemon --exec npm run babel-node index.js"` to `"start": "node ./node_modules/babel-cli/bin/babel-node.js --presets env index.js",`
+
 ---------
 
 # Max Base
