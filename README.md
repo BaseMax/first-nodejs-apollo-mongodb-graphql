@@ -40,6 +40,7 @@ mutation {
 - https://www.apollographql.com/docs/apollo-server/schema/schema/
 - https://github.com/apollographql/apollo-server
 - https://github.com/graphql/express-graphql
+- https://www.youtube.com/watch?v=YFkJGEefgU8
 
 #### Did you encounter a problem in Babel?
 
