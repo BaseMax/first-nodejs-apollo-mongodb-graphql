@@ -128,7 +128,6 @@ $ sudo systemctl status mongodb
 $ sudo systemctl enable mongodb
 ```
 
-
 ---------
 
 # Max Base
